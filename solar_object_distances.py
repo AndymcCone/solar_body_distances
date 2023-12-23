@@ -4,7 +4,7 @@ import numpy as np
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt 
 
-start_time = datetime(2000, 1, 1)
+start_time = datetime(2010, 1, 1)
 end_time = datetime(2020, 1, 1)
 time_step = timedelta(days=1)
 
