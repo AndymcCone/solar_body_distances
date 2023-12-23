@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 import matplotlib.pyplot as plt 
 
 start_time = datetime(2000, 1, 1)
-end_time = datetime(2170, 1, 1)
+end_time = datetime(2020, 1, 1)
 time_step = timedelta(days=1)
 
 times = np.arange(start_time, end_time, time_step).astype(datetime)
